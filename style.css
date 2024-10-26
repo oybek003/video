@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+    font-size: 12px;
+    z-index: 3333;
+}
+.nav ul{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    right: 40px;
+    top: 8px;
+    z-index: 3333;
+}
+nav ul li:hover{
+    color: red;
+    transition: all 1s;
+    text-shadow: 0px 4px 4px white;
+}
+body{
+    height: 1200px;
+}
+.logo{
+    position: relative;
+    left: 40px;
+    z-index: 3333;
+}
+.vid1{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 68px;
+}
+.text1{
+    position: absolute;
+    bottom: 100px;
+    z-index: 2;
+    color: white;
+    left: 100px;
+}
+.launch{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.starlink1{
+    font-size: 46px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.watch1{
+    border: 1px solid;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+}
+.watch1:hover{
+    transition: all 1s;
+    color: white;
+    background-color: red;
+    border: 2px solid white;
+    box-shadow: 0px 4px 12px 4px white;
+}
+.vid2{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 72px;
+}
+.text2{
+    position: absolute;
+    bottom: -560px;
+    z-index: 22;
+    color: white;
+    left: 100px;
+}
+.launch2{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.starlink2{
+    font-size: 46px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.watch2{
+    border: 1px solid;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+}
+.watch2:hover{
+    transition: all 1s;
+    color: white;
+    background-color: red;
+    border: 2px solid white;
+    box-shadow: 0px 4px 12px 4px white;
+}
+.vid3{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 76px;
+}
+.text3{
+    position: absolute;
+    bottom: -1200px;
+    z-index: 22;
+    color: white;
+    left: 100px;
+}
+.launch3{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.astra{
+    font-size: 46px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.watch3{
+    border: 1px solid;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+}
+.watch3:hover{
+    transition: all 1s;
+    color: white;
+    background-color: red;
+    border: 2px solid white;
+    box-shadow: 0px 4px 12px 4px white;
+}
+.vid5{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 80px;
+}
+.text5{
+    position: absolute;
+    bottom: -1800px;
+    z-index: 22;
+    color: white;
+    left: 100px;
+}
+.launch5{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.test{
+    font-size: 46px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.watch5{
+    border: 1px solid;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+}
+.watch5:hover{
+    transition: all 1s;
+    color: white;
+    background-color: red;
+    border: 2px solid white;
+    box-shadow: 0px 4px 12px 4px white;
+}
+.vid6{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 84px;
+}
+.text6{
+    position: absolute;
+    bottom: -2470px;
+    z-index: 22;
+    color: white;
+    left: 100px;
+}
+.launch6{
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.test2{
+    font-size: 46px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.watch6{
+    border: 1px solid;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+}
+.watch6:hover{
+    transition: all 1s;
+    color: white;
+    background-color: red;
+    border: 2px solid white;
+    box-shadow: 0px 4px 12px 4px white;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 16vh;
+    position: relative;
+    bottom: 88px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul{
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    top: 40px;
+
+    font-size: 10.5px;
+    font-weight: 400;
+    line-height: 38px;
+}
+footer ul li:hover{
+    color: red;
+    transition: all 1s;
+    text-shadow: 0px 4px 4px  white
+}
